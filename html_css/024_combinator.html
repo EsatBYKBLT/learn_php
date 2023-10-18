@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinators</title>
+
+    <style>
+        div p{
+            background-color: yellow;
+        }
+        div > p {
+            background-color: green;
+        }
+        div ~ p {
+            background-color: orange;
+        }
+        div + p {
+            background-color: red;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Combinators</h1>
+    <p>There are four different types of combinators:</p>
+    <ul>
+        <li>descendant selector (space)</li>
+        <li>child selector (>)</li>
+        <li>adjacent sibling selector (+)</li>
+        <li>general sibling selector (~)</li>
+    </ul>
+
+    <ul>
+        <li><b>Descendant Combinator:</b> for selecting elements that are descendants of other elements</li>
+        <li><b>Child Combinator:</b> for selecting elements that are direct children of other elements</li>        
+        <li><b>Adjacent Combinator:</b> for selecting elements that are immediate siblings after other elements</li>
+        <li><b>Sibling Combinator:</b> for selecting elements that are siblings after other elements</li>
+    </ul>
+
+    <h2>Descendant Selector</h2>
+    <div>
+        <p>this is a child and a grandchild</p>
+        <section>
+            <p>this is a grandchild</p>
+        </section>
+    </div>
+    <p>this is adjacent sibling</p>
+    <p>this is general sibling</p>
+    <p>this is general sibling</p>
+    <p>this is general sibling</p>
+    <p>this is general sibling</p>
+</body>
+</html>

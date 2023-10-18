@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+        
+        .warning {
+            border-style: solid;
+            border-color: yellow;
+            border-radius: 10px;
+            padding: 10px;
+            width: 60%;
+            margin: auto;
+            background-color: rgba(0, 0, 255, 0.3);
+            
+            color: greenyellow;
+        }
+        .info {
+            border-style: solid;
+            border-color: yellow;
+            border-radius: 10px;
+            padding: 10px;
+            width: 60%;
+            margin: auto;
+            color: white;
+            
+            text-align: justify;
+            /*text-align-last: right;*/
+
+            background-color: rgba(55, 55, 55, 0.7);
+            
+        }
+
+        p.text_rtl {
+        direction: rtl;
+        unicode-bidi: bidi-override;
+        }
+
+        .text_decoration{
+            text-decoration: underline rgb(26, 211, 72) wavy 2px;
+        }
+
+        .text_transform{
+            text-transform: capitalize;
+        }
+        .space {
+            text-indent: 50px;
+            letter-spacing: 2px;
+            line-height: 20px;
+            word-spacing: 10px;
+            /*white-space: pre;*/
+
+        }
+        .shadow{
+            text-align: center;
+            text-shadow: 2px 2px 5px red;
+        }
+    </style>
+</head>
+<body>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius soluta reprehenderit fugiat totam! Illo ad nulla corporis, ratione nostrum vitae in quibusdam, sit sapiente quisquam voluptatem numquam laudantium nemo debitis.</p>
+    <p class="warning">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius soluta reprehenderit fugiat totam! Illo ad nulla corporis, ratione nostrum vitae in quibusdam, sit sapiente quisquam voluptatem numquam laudantium nemo debitis.</p>
+
+    <div class="info">
+        <h2>Text-align</h2>
+        <p>The text-align property is used to set the horizontal alignment of a text.</p>
+
+        <p><b>A text can be left or right aligned, centered, or justified.</b></p>
+
+        <h2>Text Align Last</h2>
+        <p>The text-align-last property specifies how to align the last line of a text.</p>
+        <h2>Text Direction</h2>
+        <p>The direction and unicode-bidi properties can be used to change the text direction of an element:</p>
+        <p class="text_rtl">For example like that</p>
+
+        <h2 class="text_transform">vertical-align</h2>
+        <p>The vertical-align CSS property sets vertical alignment of an inline, inline-block or table-cell box.</p>
+        <p style="font-size: 20px;">this is <b style="vertical-align: top;font-size: 10px;">top</b> alignment</p>
+
+        <h2 class="text_transform">text decoration</h2>
+        <p class="text_decoration">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam perferendis possimus magni enim ea aspernatur rerum nesciunt consequatur numquam. Cumque corporis vel laboriosam dolore quis est autem, et molestias eligendi!</p>
+        <h2>space</h2>
+        <p class="space">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, vero! Cumque ea, atque suscipit optio dolore quod numquam culpa sapiente, debitis inventore soluta rerum molestias, dicta quo doloribus repudiandae vero.
+            <br>
+            <br>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur pariatur natus fuga nemo incidunt debitis optio dolorem dicta a maiores. Eum beatae minus sit iste veniam alias pariatur non saepe.
+        </p>
+
+        <h1 class="shadow">Text Shadow</h1>
+    </div>
+    
+
+</body>
+</html>

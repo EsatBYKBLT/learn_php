@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: beige;
+        }
+        .dotted {border-style: dotted;}
+        .dashed {border-style: dashed;}
+        .solid {border-style: solid;}
+        .double {border-style: double;}
+        .groove {border-style: groove;}
+        .ridge {border-style: ridge;}
+        .inset {border-style: inset;}
+        .outset {border-style: outset;}
+        .none {border-style: none;}
+        .hidden {border-style: hidden;}
+        .mix {border-style: dotted dashed solid double;}
+
+
+        .one {
+        border-style: solid;
+        border-width: 5px;
+        }
+        .two {
+        border-style: solid;
+        border-width: medium;
+        }
+
+        .red{
+            border-style: dotted;
+            border-color: red;
+        }
+        .green{
+            border-style: dotted;
+            border-color: green;
+        }
+        .blue{
+            border-style: dotted;
+            border-color: blue;
+        }
+
+        .side1{border-style: dotted;}
+        .side2{border-style: dotted dashed;}
+        .side3{border-style: dotted dashed double;}
+        .side4{border-style: dotted dashed double solid;}
+
+
+        p.normal {
+        border: 2px solid red;
+        padding: 5px;
+        }
+
+        p.round1 {
+        border: 2px solid red;
+        border-radius: 5px;
+        padding: 5px;
+        }
+
+        p.round2 {
+        border: 2px solid red;
+        border-radius: 8px;
+        padding: 5px;
+        }
+
+        p.round3 {
+        border: 2px solid red;
+        border-radius: 12px;
+        padding: 5px;
+        }
+    </style>
+
+</head>
+<body>
+
+    <h1>Border style</h1>
+
+    <p class="dotted">A dotted border.</p>
+    <p class="dashed">A dashed border.</p>
+    <p class="solid">A solid border.</p>
+    <p class="double">A double border.</p>
+    <p class="groove">A groove border.</p>
+    <p class="ridge">A ridge border.</p>
+    <p class="inset">An inset border.</p>
+    <p class="outset">An outset border.</p>
+    <p class="none">No border.</p>
+    <p class="hidden">A hidden border.</p>
+    <p class="mix">A mixed border.</p>
+
+    <h1>Border width</h1>
+    <p class="one">Border width: 5px</p>
+    <p class="two">Border width: medium</p>
+
+    <h1>Border color</h1>
+    <p class="red">Border color: red</p>
+    <p class="blue">Border color: blue</p>
+    <p class="green">Border color: green</p>
+    
+
+    <h1>Border sides</h1>
+    
+    <p class="side1">Border sides</p>
+    <p class="side2">Border sides</p>
+    <p class="side3">Border sides</p>
+    <p class="side4">Border sides</p>
+
+    <h1>Border shorthand</h1>
+    <ul>
+        <li>border-width</li>
+        <li>border-style (required)</li>
+        <li>border-color</li>
+    </ul>
+    
+    <h1>Rounded Borders</h1>
+    
+    <p class="normal">Normal border</p>
+    <p class="round1">Round border</p>
+    <p class="round2">Rounder border</p>
+    <p class="round3">Roundest border</p>
+
+</body>
+</html>
